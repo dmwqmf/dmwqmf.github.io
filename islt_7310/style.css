@@ -1,0 +1,15 @@
+h1 {
+    color: #ffffbd;
+}
+
+body {
+    background-color: #3281cf;
+}
+
+p, footer, h3, blockquote {
+    color: white;
+}
+
+a {
+    color: #ffffbd;
+}
