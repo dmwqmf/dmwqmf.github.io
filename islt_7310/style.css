@@ -1,0 +1,31 @@
+h1 {
+    color: #ffffbd;
+}
+
+body {
+    background-color: #3281cf;
+}
+
+p, footer, h3, blockquote {
+    color: white;
+}
+
+a {
+    color: #ffffbd;
+}
+
+div{ /* CSS model box */
+    width: 1000px;
+    padding: 5px;
+    margin: 20px;
+  }
+
+p.a::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffbd;
+}
+
+p.b, p.c, p.d {
+    text-indent: 25px;
+}
