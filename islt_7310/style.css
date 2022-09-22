@@ -1,0 +1,103 @@
+h1 {
+    color: #ffffbd;
+    margin: 15px;
+}
+
+h3 {
+    margin: 15px;
+}
+
+body {
+    background-color: #3281cf;
+}
+
+p, h3, blockquote {
+    color: white;
+}
+
+footer {
+    color: white;
+    margin: 50px;
+    text-align: center;
+}
+
+a {
+    color: #ffffbd;
+}
+
+.a::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffbd;
+}
+
+.b, .c, .d {
+    text-indent: 25px;
+}
+
+.wrapper {
+    margin: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+.profile {
+    border-radius: 50%;
+    margin: 50px;
+    margin-top: 10px;
+    border: 5px solid#ffffbd;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 600px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+
+.item {
+  background-color: #444;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: center;
+  }
+
+  .yellow-bold {
+    color: #ffffbd;
+  }
+
+  .exp {
+    border-radius: 5px;
+    margin-left: 35px;
+  }
+
+  .section {
+    width: 50%;
+    height: 200px;
+    
+    margin-left: 25%;
+    font-size: 18px;
+    color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+      width: 100%;
+    }
+  }
