@@ -1,0 +1,227 @@
+h1 {
+    color: #ffffbd;
+    margin: 15px;
+}
+
+h3 {
+    margin: 15px;
+}
+
+body {
+    background-color: #3281cf;
+}
+
+p, h3, blockquote {
+    color: white;
+}
+
+footer {
+    color: white;
+    margin: 50px;
+    text-align: center;
+}
+
+a {
+    color: #ffffbd;
+}
+
+.a::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffbd;
+}
+
+.b, .c, .d {
+    text-indent: 25px;
+}
+
+.wrapper {
+    margin: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+.profile {
+    border-radius: 50%;
+    margin: 50px;
+    margin-top: 10px;
+    border: 5px solid#ffffbd;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 600px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+
+.item {
+  background-color: #444;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: center;
+  }
+
+  .item_contact {
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 600px;
+    margin-left: 25%;
+    justify-content: center;
+    }
+
+  .yellow-bold {
+    color: #ffffbd;
+  }
+
+  .exp {
+    border-radius: 5px;
+    margin-left: 35px;
+  }
+
+  .section {
+    width: 50%;
+    height: 200px;
+    
+    margin-left: 25%;
+    font-size: 18px;
+    color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+      width: 100%;
+    }
+  }
+
+  @font-face { 
+    font-family: robotoSlab;
+    src: url("RobotoSlab-VariableFont_wght.ttf");
+    }
+
+  blockquote {
+    font-family: robotoSlab; 
+    }
+
+  @media print {
+  * {
+    background-color: #3281cf !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: sans-serif;
+    color: #000 !important;
+  }
+
+  body {
+    font-size: 14px;;
+  }
+
+  footer {
+  margin-top: 0;
+   }
+
+   nav, video, .footer_image {
+    display: none;
+   }
+
+  @font-face { 
+    font-family: robotoSlab;
+    src: url("RobotoSlab-VariableFont_wght.ttf");
+    }
+
+  blockquote {
+    font-family: robotoSlab; 
+    }
+  }
+
+  .footer_container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .footer_text {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    margin: 0 auto;
+    margin-left: 20%;
+  }
+
+  .iconBig {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; 
+    z-index: 500;
+  }
+
+  .icon:hover + .iconBig {
+    width: 75px;
+    height: 75px;
+  }
+
+  .footer_project {
+    height: 300px;
+  }
+
+  .extended_item {
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 30px;
+    height: 600px;
+    width: 360px;
+    justify-content: center;
+    margin-left: 50%;
+  }
+
+  .extended_item2 {
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 30px;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+    margin-left: 35%;
+  }
+
+  .extended_item3 {
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 35px;
+    height: 550px;
+    width: 420px;      
+    justify-content: center;
+    margin-left: 35%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
